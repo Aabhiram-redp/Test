@@ -1,0 +1,196 @@
+.wide
+  %nav.navbar.navbar-custom.navbar-fixed-top{:role => "navigation"}
+    .container
+      .navbar-header
+        %button.navbar-toggle{"data-target" => ".navbar-main-collapse", "data-toggle" => "collapse", :type => "button"}
+          Menu
+          %i.fa.fa-bars
+        %a.navbar-brand.page-scroll{:href => "#page-top"}
+          %i.fa.fa-play-circle
+          %span.light
+            %b
+              %big SUNRISE
+          %br/
+          %dfn Responsive Wordpress Theme
+      / Collect the nav links, forms, and other content for toggling
+      .collapse.navbar-collapse.navbar-right.navbar-main-collapse
+        %ul.nav.navbar-nav
+          / Hidden li included to remove active class from about link when scrolled up past about section
+          %li.hidden
+            %a{:href => "#page-top"}
+          %li
+            %a.page-scroll{:href => "#about"} HOME
+          %li
+            %a.page-scroll{:href => "#download"} BLOG
+          %li
+            %a.page-scroll{:href => "#contact"} STYLING GUIDE
+          %li
+            %a.page-scroll{:href => "#contact"} SHORTCODES
+          %li
+            %a.page-scroll{:href => "#contact"} ABOUT
+          %li
+            %a.page-scroll{:href => "#contact"} CONTACT
+      / /.navbar-collapse
+    / /.container
+/ Blog content
+.bodytxt
+  .col-sm-7.blog
+    %h4 BLOG
+    %h2 Contemporary  Urbanism
+    %p James Welsh . No Comments .May8,2016 12:59pm .4 min read
+    %img{:src => "/images/blog1.jpg"}/
+    %br/
+    %p
+      The Arctic Tern design is one in a series of shapely double enders by Scottish Designer Iain Oughtred.
+      Influenced by the traditional workboats of the Shetland Islands especially the Ness Yoles and Sixerns.
+      Unlike the workboats, which are rather heavy and burdensome, Iain's designs take advantage of modern
+      materials and thus are lighter and lean toward performance, windward sailing ability, and general handiness.
+    %button.btn.btn-default{:type => "button"} Continue Reading
+    %hr/
+    %br/
+    %h2 Mountain page_classes
+    %p James Welsh . No Comments .May8,2016 12:59pm .4 min read
+    %img{:src => "/images/blog2.jpg"}/
+    %br/
+    %p
+      A mountain pass is a route through a mountain range or over a ridge.
+      Since many of the world's mountain ranges have presented formidable barriers to travel,
+      passes have been important since before recorded history, and have played a key role in trade, war, and migration.
+      At lower elevations it may be called a hill pass. The highest pass is Mana Pass, located in the Himalayas on the border between India and China.
+    %button.btn.btn-default{:type => "button"} Continue Reading
+    %br/
+    %hr/
+    %h2 Scandinavian Mountains
+    %p James Welsh . No Comments .May8,2016 12:59pm .4 min read
+    %img{:src => "/images/blog3.jpg"}/
+    %br/
+    %p
+      The Scandinavian Mountains or the Scandes is a mountain range that runs through the Scandinavian Peninsula.
+      The Scandinavian Mountains are often erroneously thought to be equivalent to the Scandinavian Caledonides.
+      The western sides of the mountains drop precipitously into the North Sea and Norwegian Sea, forming the famous fjords of Norway,
+      whereas to the northeast they gradually curve towards Finland. To the north they form the border between Norway and Sweden,
+      still reaching 2,000 m high (6,600 ft) at the Arctic Circle. The mountain range just touches northwesternmost Finland,
+      but are scarcely more than hills at their northernmost extension at the North Cape
+    %p
+    %hr/
+  / sidebar
+  .col-sm-4.sidebar
+    .col-sm-8.profile
+      %img.img-circle{:alt => "profilepicture", :height => "150px", :src => "/images/profilepic.jpg", :width => "75%"}/
+      %h4 James Welsh
+      %p This blog is about architecture,Photography,Design and music.
+      %p Follow me on social networks
+    .col-sm-8.recent
+      %h4
+        %b Recent Tweets
+      %h5 #WeeklyFluff = 10 lovable guinea pigs livin'together http://t.co/u8JMybOv5m
+      %p 24 mins ago
+      %hr/
+      %h5 #DailyFluff http://t.co/DuezPhpqJr
+      %h5 http://t.co/aUUqHBfKoi
+      %p 3 hours ago
+      %hr/
+      %h5
+        Introducing Instagram Stories, a new feature that lets you share all the
+        moments of your day.
+      %h5 http://t.co/gwcwjunX14
+      %p 9 hours ago
+    .col-sm-12.insta
+      %h4
+        %b
+          %u Instagram
+      %hr/
+      .row
+        .col-sm-5.instapic
+          %img{:alt => "instapic", :src => "/images/insta1.jpg", :width => "100%"}/
+        .col-sm-5.instapic
+          %img{:alt => "instapic", :src => "/images/insta2.jpg", :width => "100%"}/
+        .col-sm-5.instapic
+          %img{:alt => "instapic", :src => "/images/insta3.jpg", :width => "100%"}/
+        .col-sm-5.instapic
+          %img{:alt => "instapic", :src => "/images/insta4.jpg", :width => "100%"}/
+    .col-sm-8.recent
+      %h4
+        %b
+          %u Recent Posts
+      %h5 Contemporary urbanism
+      %hr/
+      %h5 Mountain pass
+      %hr/
+      %h5 Sky Magic Live at Mount Fuji
+      %hr/
+      %h5 Mark Twain about Traveling SCandinavian Mountains
+      %br/
+      %img{:src => "/images/post1.jpg", :width => "100%"}/
+    .col-sm-8.recent
+      %h4
+        %b
+          %u Archives
+      %h5 May 2016
+      %hr/
+      %h5 April 2016
+      %hr/
+      %h5 March 2016
+      %hr/
+      %h5 February 2016
+      %br/
+      %h5 january 2016
+    .col-sm-8.recent
+      %h4
+        %b
+          %u Categories
+      %h5 Architecture
+      %hr/
+      %h5 Blog
+      %h5 Travel
+      %hr/
+      %h5 Videos
+/
+  footer
+  <div class="col-sm-12 footer">
+.col-sm-4.footer
+  %img{:src => "/images/footer1.jpg", :width => "100%"}/
+.col-sm-4.footer
+  %img{:src => "/images/footer2.jpg", :width => "100%"}/
+.col-sm-4.footer
+  %img{:src => "/images/footer3.jpg", :width => "100%"}/
+.col-sm-3.footer
+  %h3 SUNRISE
+  %h5
+    Truly neat and unique responsive WordPress Theme that combines clean
+    design and execellent user experience.
+  %h5 Sunrise is your next WordPress Theme.
+.col-sm-3.footer
+  %h3 Instagram
+  .col-sm-5.instapic
+    %img{:alt => "instapic", :src => "/images/insta1.jpg", :width => "100%"}/
+  .col-sm-5.instapic
+    %img{:alt => "instapic", :src => "/images/insta2.jpg", :width => "100%"}/
+  .col-sm-5.instapic
+    %img{:alt => "instapic", :src => "/images/insta3.jpg", :width => "100%"}/
+  .col-sm-5.instapic
+    %img{:alt => "instapic", :src => "/images/insta4.jpg", :width => "100%"}/
+.col-sm-3.footer
+  %h3 Recent Tweets
+  %h5 @VNL. @bobbyhundreds
+  %p 2 hours ago
+  %hr/
+  %h5
+    @abbylanum knows what's up,@daxshepard1.Tap the GIF
+    button! https://t.co/XV2MNb529y
+  %p 3 hours ago
+  %hr/
+  %h5
+    In need of #Tuesday motivation? These Tweets from #rio2016
+    athetes are  https://t.co/Flmbf6vbgt http://t.co/lyyurEuTEf
+  %p 5 hours ago
+.col-sm-3.footer
+  %h3 Subscribe
+  %h5
+    Subscribe to our newsletter and stay updated on the latest developments and
+    special offers!
+  %form
+    %input#dotted{:name => "email", :placeholder => "E-mail address....", :type => "email"}/
+    %button.btn.btn-warning{:type => "button"} Subscribe
+.col-sm-10.footer
+  %h6 Copyright 2016 Sunrise, All rights reserved

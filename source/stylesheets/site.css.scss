@@ -7,6 +7,7 @@ body,html{
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
     color:rgba(0, 0, 0, 0.4);
 }
+
 .wide {
   width:100%;
   height:100%;
@@ -26,21 +27,112 @@ body,html{
   padding:25px;
   text-align:center;
 }
-
+.bodytxt{
+  margin: 0 auto;
+  width: 80%;
+}
 .blog {
-    border-right:1px solid rgba(0, 0, 0, 0.4);
+  margin: auto;
     padding-top:20px;
     padding-right:20px;
     white-space:no-wrap;
     overflow:hidden;
     text-align:center;
-  }
-
-.blog,h2,p{
+  h2,p{
 
     color:#567;
     font-style: italic;
   }
+}
+.sidebar{
+  border-left: 1px dotted gray;
+  padding-top:140px;
+  padding-right:20px;
+  margin: auto;
+  margin-left: 10px;
+  white-space:no-wrap;
+  overflow:hidden;
+  text-align:center;
+
+}
+.profile{
+background-color:rgba(0, 0, 0, 0.1);
+text-align: center;
+padding-top:10px;
+word-wrap: break-word;
+ h2{
+   color:black;
+ }
+ p{
+   color:black;
+   font-style: normal;
+ }
+}
+.img-circle{
+  border-radius: 50%;
+}
+.recent{
+  margin-top: 1em;
+  text-align: left;
+  padding-top: 15px;
+  h4{
+    color: black;
+    font-style: italic;
+
+ }
+}
+.insta{
+  margin-top: 1em;
+  text-align: left;
+  h4{
+    color: black;
+    font-style: italic;
+  }
+}
+.instapic{
+min-height: 100px;
+max-height: 150px;
+
+}
+.footer{
+text-align: left;
+  padding:0px;
+  margin: 0px;
+  h3{
+    color:black;
+  padding-left: 10px;
+  }
+  h5{
+    padding-left: 10px;
+    word-wrap: break-word;
+    color: rgba(0, 0, 0,0.8);
+  }
+  p{
+    font-style: italic;
+    word-wrap: break-word;
+    padding-left: 10px;
+    color: rgba(0, 0, 0,0.8);
+  }
+  img{
+    max-height: 250px;
+  }
+  h6{
+    float: left;
+    padding-left: 10px;
+    color:rgba(0, 0, 0,0.8);
+ }
+ button{
+   float: right;
+   margin: 10px 50px 10px 10px;
+ }
+}
+#dotted
+{
+    border:0;
+    border: 1px dotted;
+    width: 80%;
+    margin: 10px;
+}
 
 .welcome {
   -webkit-animation-name: welcome;
