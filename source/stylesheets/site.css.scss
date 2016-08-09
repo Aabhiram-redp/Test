@@ -1,0 +1,24 @@
+@charset "utf-8";
+@import "normalize";
+@import "../../node_modules/materialize-css/sass/materialize";
+body,html{
+  width: 100%;
+}
+#header{
+  background-color: #ee6e73;
+    color:white;
+    word-wrap: break-word;
+  #download-button {
+    background-color: rgb(243, 152, 155);
+    width: 225px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 3%;
+  }
+  #version{
+    color: rgb(255, 205, 210);
+    margin:2% 0% 2% 0%;
+  }
+}
