@@ -1,8 +1,31 @@
 @charset "utf-8";
 @import "normalize";
 @import "../../node_modules/materialize-css/sass/materialize";
-body,html{
+body{
   width: 100%;
+  height: auto;
+}
+::-webkit-input-placeholder {
+  color: red;
+  background-color:#fcfcfc;
+
+}
+input {
+  margin: 0 auto;
+  height: 20px;
+}
+.side-nav {
+    position: fixed;
+    width: 336px;
+    background-color: #fcfcfc;
+    a{
+    font-size: 13px;
+    line-height: 44px;
+    height: 44px;
+    padding: 0 30px;
+    color: rgba(0,0,0,0.87);
+    font-weight: bold;
+    }
 }
 #header{
   background-color: #ee6e73;
@@ -17,8 +40,94 @@ body,html{
     font-weight: 400;
     margin-top: 3%;
   }
+  h4{
+    padding: 0% 5% 0% 5%;
+  }
   #version{
     color: rgb(255, 205, 210);
     margin:2% 0% 2% 0%;
   }
+}
+#headfoot{
+  text-align: center;
+  padding: 14px 0;
+  height: 64px;
+  line-height: 36px;
+  background-color: #5c5757;
+  color: #e6e6e6;
+  font-size: .9rem;
+  word-wrap: break-word;
+  #github-button {
+    background-color: #6f6d6d;
+    transition: .25s ease;
+  }
+  .grey-text.text-lighten-5 {
+    color: #fafafa !important;
+  }
+}
+#section{
+  color: rgba(0,0,0,0.87);
+  padding: 0% 5% 0% 5%;
+  background-color:#fcfcfc;
+  #responsive-img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  .header {
+    color: #ee6e73;
+    font-weight: 300;
+  }
+  h3{
+    padding: 0% 8% 0% 8%;
+  }
+  .center {
+    text-align: center;
+    vertical-align: middle;
+}
+.promo {
+    width: 100%;
+}
+  .promo i {
+    margin: 40px 0;
+    color: #ee6e73;
+    font-size: 7rem;
+    display: block;
+}
+.promo-caption {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+p {
+    color: rgba(0,0,0,0.71);
+    padding: 0% 5% 0% 5%;
+}
+.light center {
+    text-align: center;
+    color: rgba(0,0,0,0.71);
+    padding: 0% 25% 0% 10%;
+  }
+  .caption{
+    font-size: 1.25em;
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+ }
+ #footer{
+   padding: 0px;
+.topfoot{
+    background-color: #ee6e73;
+    color: #fff;
+    font-size: 14px;
+    padding: 5%;
+}
+.botfoot{
+     background-color:#d45d61;
+     height: 100px;
+     line-height: 100px;
+     font-weight: 300;
+}
 }
